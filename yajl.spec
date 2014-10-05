@@ -1,10 +1,10 @@
 Summary:	Yet Another JSON Library
 Name:		yajl
-Version:	2.0.4
+Version:	2.1.0
 Release:	1
 License:	BSD
 Group:		Libraries
-Source:		http://github.com/lloyd/yajl/tarball/%{version}
+Source:		https://github.com/lloyd/yajl/archive/%{version}.tar.gz
 URL:		http://lloyd.github.com/yajl/
 BuildRequires:	cmake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
